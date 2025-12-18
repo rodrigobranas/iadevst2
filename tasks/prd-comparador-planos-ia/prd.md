@@ -56,7 +56,13 @@ O "Comparador de Planos de IA" é uma ferramenta interativa projetada para ajuda
         - Diferenciais chave (ex: "Context Window de 200k").
     2.  Design responsivo e esteticamente agradável.
 
-### 4. Integração de Dados
+### 4. Filtro de planos Individual ou Enterprise
+    - **O que faz**: Filtro que permite ao usuário selecionar entre planos Individual ou Enterprise.
+    - **Requisitos Funcionais**:
+        1.  Deve exibir claramente o valor selecionado em tempo real (ex: "Individual" ou "Enterprise").
+        2.  Por padrão, deve exibir planos Individual.
+
+### 5. Integração de Dados
 - **O que faz**: Carrega os dados dos planos de uma fonte externa.
 - **Requisitos Funcionais**:
     1.  Os dados dos planos NÃO devem estar *hardcoded* no componente frontend.
@@ -78,11 +84,13 @@ O "Comparador de Planos de IA" é uma ferramenta interativa projetada para ajuda
 ### Design Visual
 - **Estética**: Limpa, moderna, orientada a desenvolvedores (possivelmente Dark Mode por padrão ou seguindo o sistema).
 - **Consistência**: Altura dos cards deve ser unificada para evitar "buracos" no grid (Bento Layout).
+- **Tema**: Fornecer a possibilidade de chavear entre o tema claro e escuro
+- **Padrão Visual**: Seguir algo próximo do GitHub em termos estéticos
 
 ## Restrições Técnicas de Alto Nível
 
 - **Frontend**: Desenvolvido em React (compatível com a stack atual do projeto).
-- **Dados**: JSON estático servido via endpoint simples (ex: Next.js API route ou arquivo estático em public, conforme arquitetura backend).
+- **Dados**: JSON estático servido via endpoint simples
 - **Performance**: O filtro deve ser executado no cliente (client-side) para garantir latência zero ao arrastar o slider, dado que o volume de dados é pequeno (4 ferramentas x ~3 planos cada).
 - **Internacionalização**: Inicialmente apenas Inglês (termos técnicos) e moeda USD.
 

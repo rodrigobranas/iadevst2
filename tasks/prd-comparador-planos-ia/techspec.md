@@ -25,12 +25,7 @@ Esta especificação técnica define a implementação de um comparador interati
 - **`src/types/plan.ts`** (novo) - Tipos TypeScript para planos
 - **`src/main.tsx`** (migração de .jsx) - Entry point
 
-**Fluxo de Dados:**
-```
-Backend (GET /api/plans) → usePlans hook → ToolsGrid → PlanCard
-                                ↑
-                         BudgetSlider (budget state)
-```
+<critical>APAGAR OS ARQUIVOS .JSX após criar os arquivos .TSX</critical>
 
 ## Design de Implementação
 

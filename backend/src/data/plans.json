@@ -1,0 +1,203 @@
+{
+  "tools": [
+    {
+      "id": "github-copilot",
+      "name": "GitHub Copilot",
+      "slug": "copilot",
+      "plans": [
+        {
+          "id": "copilot-free",
+          "name": "Free",
+          "price": 0,
+          "type": "individual",
+          "limits": ["2000 completions/month", "50 chat requests/month"],
+          "models": ["GPT-4.1", "Haiku 4.5"],
+          "highlights": ["Basic code completion"]
+        },
+        {
+          "id": "copilot-pro",
+          "name": "Pro",
+          "price": 10,
+          "type": "individual",
+          "limits": ["Unlimited completions", "300 premium requests/month"],
+          "models": ["GPT-5", "Claude Sonnet 4", "Gemini 2.5 Pro"],
+          "highlights": ["Coding agent", "Code review"]
+        },
+        {
+          "id": "copilot-pro-plus",
+          "name": "Pro+",
+          "price": 39,
+          "type": "individual",
+          "limits": ["Unlimited completions", "1500 premium requests/month"],
+          "models": ["All models", "Claude Opus 4.1"],
+          "highlights": ["5x more premium requests", "GitHub Spark"]
+        },
+        {
+          "id": "copilot-business",
+          "name": "Business",
+          "price": 19,
+          "type": "enterprise",
+          "limits": ["Unlimited completions", "300 premium requests/month"],
+          "models": ["GPT-5", "Claude Sonnet 4", "Gemini 2.5 Pro"],
+          "highlights": ["Organization-wide policies", "Audit logs"]
+        },
+        {
+          "id": "copilot-enterprise",
+          "name": "Enterprise",
+          "price": 39,
+          "type": "enterprise",
+          "limits": ["Unlimited completions", "1000 premium requests/month"],
+          "models": ["All models", "Claude Opus 4.1"],
+          "highlights": ["Knowledge bases", "Fine-tuned models"]
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor",
+      "slug": "cursor",
+      "plans": [
+        {
+          "id": "cursor-free",
+          "name": "Hobby",
+          "price": 0,
+          "type": "individual",
+          "limits": ["Limited Agent requests", "Limited Tab completions"],
+          "models": ["Basic models"],
+          "highlights": ["One-week Pro trial"]
+        },
+        {
+          "id": "cursor-pro",
+          "name": "Pro",
+          "price": 20,
+          "type": "individual",
+          "limits": ["Extended Agent limits", "Unlimited Tab completions"],
+          "models": ["GPT-4o", "Claude 3.5 Sonnet", "Gemini"],
+          "highlights": ["Background Agents", "Maximum context windows"]
+        },
+        {
+          "id": "cursor-pro-plus",
+          "name": "Pro+",
+          "price": 60,
+          "type": "individual",
+          "limits": ["3x usage on all models"],
+          "models": ["All OpenAI, Claude, Gemini models"],
+          "highlights": ["3x usage multiplier"]
+        },
+        {
+          "id": "cursor-ultra",
+          "name": "Ultra",
+          "price": 200,
+          "type": "individual",
+          "limits": ["20x usage on all models"],
+          "models": ["All OpenAI, Claude, Gemini models"],
+          "highlights": ["20x usage multiplier", "Priority access"]
+        },
+        {
+          "id": "cursor-business",
+          "name": "Business",
+          "price": 40,
+          "type": "enterprise",
+          "limits": ["Extended Agent limits", "Unlimited Tab completions"],
+          "models": ["All OpenAI, Claude, Gemini models"],
+          "highlights": ["Centralized billing", "Admin dashboard", "SSO"]
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "name": "Claude Code",
+      "slug": "claude",
+      "plans": [
+        {
+          "id": "claude-pro",
+          "name": "Pro",
+          "price": 20,
+          "type": "individual",
+          "limits": ["Standard usage"],
+          "models": ["Sonnet 4.5", "Opus 4.5"],
+          "highlights": ["Claude Code included", "Web + Terminal"]
+        },
+        {
+          "id": "claude-max-5x",
+          "name": "Max 5x",
+          "price": 100,
+          "type": "individual",
+          "limits": ["5x more usage than Pro"],
+          "models": ["Sonnet 4.5", "Opus 4.5"],
+          "highlights": ["Memory across conversations", "Priority access"]
+        },
+        {
+          "id": "claude-max-20x",
+          "name": "Max 20x",
+          "price": 200,
+          "type": "individual",
+          "limits": ["20x more usage than Pro"],
+          "models": ["Sonnet 4.5", "Opus 4.5"],
+          "highlights": ["Higher output limits", "Early access to features"]
+        },
+        {
+          "id": "claude-team",
+          "name": "Team",
+          "price": 30,
+          "type": "enterprise",
+          "limits": ["Higher usage limits"],
+          "models": ["Sonnet 4.5", "Opus 4.5"],
+          "highlights": ["Team collaboration", "Admin controls"]
+        },
+        {
+          "id": "claude-enterprise",
+          "name": "Enterprise",
+          "price": 60,
+          "type": "enterprise",
+          "limits": ["Custom usage limits"],
+          "models": ["Sonnet 4.5", "Opus 4.5"],
+          "highlights": ["SSO/SAML", "Domain verification", "Custom retention"]
+        }
+      ]
+    },
+    {
+      "id": "windsurf",
+      "name": "Windsurf",
+      "slug": "windsurf",
+      "plans": [
+        {
+          "id": "windsurf-free",
+          "name": "Free",
+          "price": 0,
+          "type": "individual",
+          "limits": ["Basic usage"],
+          "models": ["Standard models"],
+          "highlights": ["Free forever"]
+        },
+        {
+          "id": "windsurf-pro",
+          "name": "Pro",
+          "price": 15,
+          "type": "individual",
+          "limits": ["Extended usage"],
+          "models": ["All major models"],
+          "highlights": ["Cascade AI", "Deep context awareness"]
+        },
+        {
+          "id": "windsurf-teams",
+          "name": "Teams",
+          "price": 30,
+          "type": "enterprise",
+          "limits": ["Team pooled usage"],
+          "models": ["All major models"],
+          "highlights": ["Team management", "Usage analytics"]
+        },
+        {
+          "id": "windsurf-enterprise",
+          "name": "Enterprise",
+          "price": 60,
+          "type": "enterprise",
+          "limits": ["Custom limits"],
+          "models": ["All major models"],
+          "highlights": ["SSO", "Advanced security", "Priority support"]
+        }
+      ]
+    }
+  ]
+}
